@@ -18,7 +18,10 @@ public class Principal {
         c2.start();
         
         Impressora i1 = new Impressora(Servidor.getArquivo());
+        i1.start();
         Impressora i2 = new Impressora(Servidor.getArquivo());
+        i2.start();
+        
     }
     
 }
